@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
+    <link href="css/styke.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table border="1">
+    <table>
+        <caption>Listado de personas</caption>
         <tr>
             <th>Nombre</th>
             <th>Apellido</th>
@@ -21,6 +26,36 @@
             <td>Maria</td>
             <td>Lara</td>
             <td>ml@mail.com</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Juarez</td>
+            <td>cj@mail.com</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>Esparza</td>
+            <td>ce@mail.com</td>
+        </tr>
+        
+    </table>
+    <br>
+    <table>
+        <caption>Listado de personas</caption>
+        <tr>
+            <th colspan="2">Nombre</th>
+            <!-- <th>Apellido</th> -->
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td rowspan="2">jp@mail.com</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Lara</td>
+            <!-- <td>ml@mail.com</td> -->
         </tr>
     </table>
 </body>
