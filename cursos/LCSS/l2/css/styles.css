@@ -1,0 +1,131 @@
+h1{ text-align: center;}
+
+
+.rojo{
+    background-color: firebrick;
+    /* color: white; */
+}
+
+.rosa{
+    background-color: hotpink;
+    /* color: white; */
+}
+
+.amarillo{
+    background-color: gold;
+}
+
+.violeta{
+    background-color: blueviolet;
+}
+
+.azul{
+    background-color: turquoise;
+}
+
+.verde{
+    background-color: lime;
+}
+
+.rojo, .rosa , .violeta, .azul{
+    color: white;
+}
+
+
+.border_rojo{
+    border: 10px solid rgb(178, 34, 34);
+    /* color: white; */
+}
+
+.border_rosa{
+    border: 10px dashed rgb(255, 105, 180);
+    /* color: white; */
+}
+
+.border_amarillo{
+    border: 10px double  #ffd700;
+}
+
+.border_violeta{
+    border:10px dotted  hsl(271, 76%, 53%);
+}
+
+.border_azul{
+    border: 1px solid  turquoise;
+}
+
+.border_verde{
+    border:1px solid lime;
+}
+
+
+.border_punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson;
+}
+
+.border_discontinuo{
+    border-style: dashed;
+    border-width: thick;
+    border-color: crimson hotpink gold lime;
+    /* thin medium thick */
+}
+
+.border_solido{
+    border-style: solid;
+    
+    border: solid;
+    /* border: 10px solid red; */
+    border-width: 10px 5px 2px;
+    border-color: #457b9d ;
+}
+
+.border_doble{
+    border : 5px double blueviolet;
+    border-width: 10px 5px;
+}
+
+.border_surco{
+    border : 10px groove;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.border_cresta{
+    border : 10px ridge;
+}
+
+.border_recuadro{
+    border: 10px inset;
+}
+
+
+.border_recuadro_inverso{
+    border: 10px outset;
+}
+
+.sin_borde{
+
+    border: none;
+}
+
+.border_oculto{
+    border : hidden;
+}
+
+.border_mixto{
+    border-style: dotted solid dashed double;
+}
+
+.border_radio{
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 15px;
+}
+
+.redondeado{
+    border : 5px solid blueviolet;
+    border-radius : 20px 0px 10px 5px;
+}
