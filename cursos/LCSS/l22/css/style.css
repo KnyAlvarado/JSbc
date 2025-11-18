@@ -9,4 +9,28 @@ div.contenedor{
     width: 30%;
     height: 100px;
     overflow: auto;
+   
+}
+
+div.contenedor.flotado{
+     float: left;
+}
+
+/* div.contenedor.flotadoder{
+     float: right;
+} */
+
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow
+}
+
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float:right
+}
+
+div.contenedor.contenedor3{
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
 }
